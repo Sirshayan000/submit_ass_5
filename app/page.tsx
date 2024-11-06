@@ -1,8 +1,9 @@
 export default function HomePage(){
   return(
     <div
-     className="h-screen
-                bg-[white]"
+     className="h-[1000px] 
+                bg-[white]
+                w-[100vw]"
     >
 
 {/* ---------------------header- */}
@@ -20,16 +21,34 @@ export default function HomePage(){
           </h1>
       </div>
 {/* --------------------------hero       */}
-      
-      <div>
+  <div className="flex justify-evenly items-center">
+                 {/* div_one  */}
+     <div className="flex justify-evenly items-center">    
+
+       <div>
         <h1 className="text-3xl font-bold text-black ">
           IMPECCABLE <br />CRAFTSMANSHIP AND <br />FINESSE
         </h1>        
       </div>
 
-      <div className="h-[150px] w-[900px] bg-[url('/images/para_img_png')] bg-cover ">
-        
+      <div className="h-[150px] w-[900px] bg-[url('/images/para_img.png')] bg-cover ">   
       </div>
+
+      <div className="h-[50px] w-[250px] bg-[#A29875]">
+        <p className="text-white text-2xl">Explore Now</p>
+       </div>
+
+    </div> 
+
+                 {/* div_two  */}
+    <div 
+       className="h-[350px] w-[150px] bg-[pink]">
+    </div>
+
+ </div>
+
+
+
 
     </div>
   )
