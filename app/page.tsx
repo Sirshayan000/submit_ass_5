@@ -1,13 +1,9 @@
 export default function HomePage(){
   return(
-    <div
-     className="h-[1000px] 
-                bg-[white]
-                w-[100vw]"
-    >
-
+    <div className="h-[1000px] bg-[white] w-[100vw]">
+     
 {/* ---------------------header- */}
-      <div className="h-[80px]
+      <div className="h-[135px]
                       w-[100vw]
                       bg-[#A29875]
                       flex
@@ -15,37 +11,45 @@ export default function HomePage(){
                       justify-start
                       pl-[15px]" 
       >
-          <h1 className="text-5xl font-extrabold"
+          <h1 className="text-7xl font-extrabold font-serif"
           >
             MANZZARI
           </h1>
       </div>
 {/* --------------------------hero       */}
-  <div className="flex justify-evenly items-center">
+  <main  className="h-[850px]">
+
+                
                  {/* div_one  */}
-     <div className="flex justify-evenly items-center">    
+     
+     
+      
+  <div className="h-[600px] w-[1700px] mt-[100px] ml-[165px]"> 
 
-       <div>
-        <h1 className="text-3xl font-bold text-black ">
-          IMPECCABLE <br />CRAFTSMANSHIP AND <br />FINESSE
-        </h1>        
-      </div>
-
-      <div className="h-[150px] w-[900px] bg-[url('/images/para_img.png')] bg-cover ">   
-      </div>
-
-      <div className="h-[50px] w-[250px] bg-[#A29875]">
-        <p className="text-white text-2xl">Explore Now</p>
+    
+       <div className="h-[200px] w-[500px] ">
+        <div className="text-3xl font-bold text-black font-serif  pt-[60px]">
+          <p className="">IMPECCABLE</p> <p className="pt-[15px]">CRAFTSMANSHIP AND</p> <p className="pt-[15px]">FINESSE</p>
+        </div>        
        </div>
 
-    </div> 
+       <div className="h-[150px] w-[900px] bg-[url('/images/para_img.png')] bg-cover mt-[26px] pt-[40px]">   
+       </div>
 
-                 {/* div_two  */}
-    <div 
-       className="h-[350px] w-[150px] bg-[pink]">
-    </div>
+       <div className="h-[60px] w-[300px] bg-[#A29875] mt-[26px] rounded-[10px]">
+         <button className="text-white text-2xl text-center pt-[10px] pl-[75px] font-medium">Explore Now</button>
+       </div> 
+                  {/* div_two  */}
+       <div 
+       className="bg-[url('/images/hero_img.jpeg')] bg-cover inline-block ml-[900px] mt-[-463px] h-[600px] w-[450px]  rounded-tl-[140px] rounded-tr-[0px] rounded-bl-[0px] rounded-br-[140px]">
+          
+        
 
- </div>
+       </div>
+
+  </div>
+   
+     </main>
 
 
 
